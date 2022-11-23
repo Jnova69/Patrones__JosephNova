@@ -113,7 +113,7 @@ public class ProductoController implements Initializable {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText(null);
             alert.setTitle("Error");
-            alert.setContentText("Debes seleccionar un PRODUCTO para modificar");
+            alert.setContentText("No has seleccionado un producto");
             alert.showAndWait();
         } else {
 

@@ -79,7 +79,7 @@ public class ProductoDialogControlador implements Initializable {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setHeaderText(null);
                 alert.setTitle("Informacion");
-                alert.setContentText("Se ha modificado correctamente");
+                alert.setContentText("Modificado correctamente");
                 alert.showAndWait();
 
             } else {
@@ -89,7 +89,7 @@ public class ProductoDialogControlador implements Initializable {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setHeaderText(null);
                 alert.setTitle("Informacion");
-                alert.setContentText("Se ha añadido correctamente");
+                alert.setContentText("Añadido correctamente");
                 alert.showAndWait();
 
             }
@@ -101,7 +101,7 @@ public class ProductoDialogControlador implements Initializable {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText(null);
             alert.setTitle("Error");
-            alert.setContentText("El producto ya existe con el mismo valor y precio");
+            alert.setContentText("Este producto ya ha sido creado");
             alert.showAndWait();
         }
     }
